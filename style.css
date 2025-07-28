@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    max-width: 900px;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: grey;
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.bookmark {
+    border-radius: 10px;
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bookmark-input {
+    width: 250px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.bookmark-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.bookmark-buttons {
+    margin-top: 10px;
+}
+
+.bookmark-buttons button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.bookmark-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.bookmark-list {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
