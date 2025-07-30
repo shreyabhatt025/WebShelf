@@ -1,128 +1,80 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Body styling */
 body {
-    background-color: #f5faff;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #d9e8fc);
+  margin: 0;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
-/* Header */
 header {
-    background-color: #e8f0fe;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 12px;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 10px;
+.bookmark-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-header p {
-    font-size: 1.1rem;
-    color: #666;
+.bookmark-box input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
-/* Main container */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Input area */
-.input-area {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.bookmark-input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px;
+.buttons {
+  margin-top: 10px;
 }
 
 button {
-    padding: 8px 16px;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    margin: 0 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #3367d6;
 }
 
-/* Bookmark display area */
-.bookmark-display {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.clear-btn {
+  background-color: #e74c3c;
 }
 
-.bookmark-title h3 {
-    font-size: 1.3rem;
-    color: #333;
-    margin-bottom: 10px;
-    text-align: center;
+.clear-btn:hover {
+  background-color: #c0392b;
 }
 
-.bookmark-tag {
-    font-size: 16px;
-    color: #007bff;
-    text-align: center;
-    word-break: break-word;
-    margin-top: 10px;
+#bookmark-list {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.count {
-    font-size: 14px;
-    color: #888;
-    text-align: center;
-    margin-top: 5px;
+#bookmark-list a {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #e3f2fd;
+  color: #155e75;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-/* Responsive for small screens */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    .bookmark-input {
-        font-size: 14px;
-    }
-
-    button {
-        font-size: 13px;
-        padding: 7px 14px;
-    }
-}

@@ -3,38 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WEBSHELF</title>
+  <title>WebShelf</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>My Webshelf</h1>
+    <h1>My WebShelf</h1>
     <p>Welcome to your personal collection of web resources!</p>
   </header>
 
   <div class="container">
     <!-- Input and buttons -->
-    <div class="input-area">
-      <input type="text" class="bookmark-input" placeholder="Enter a bookmark URL" />
-      <button class="add-bookmark">Add Bookmark</button>
-      <button class="clear-bookmarks">Clear Bookmarks</button>
-      <p class="bookmark-tag"></p>
+    <div class="bookmark-box">
+      <input type="text" id="bookmark-input" placeholder="Enter bookmark URL" />
+      <div class="buttons">
+        <button id="add-bookmark">Add Bookmark</button>
+        <button id="clear-bookmarks" class="clear-btn">Clear Bookmarks</button>
+      </div>
     </div>
 
-    <!-- Display bookmark -->
-    <div class="bookmark-display">
-      <div class="bookmark-title">
-        <h3>Your Bookmark</h3>
-        <div class="count">
-          <p class="bookmark-count">0</p>
-        </div>
-      </div>
-      <div class="bookmark-container">
-        <!-- Bookmarks will go here -->
-      </div>
-    </div>
+    <!-- Bookmark display -->
+    <h2>Your Bookmarks</h2>
+    <h3 id="bookmark-count">Total Bookmarks: 0</h3>
+    <div id="bookmark-list"></div>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
