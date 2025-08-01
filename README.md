@@ -24,5 +24,5 @@ WebShelf is a simple bookmark manager web app where you can add and save your fa
 4. Bookmarks will be listed below.
 5. Click "Clear Bookmarks" to remove all saved bookmarks.
 
-## File Structure
+
 
