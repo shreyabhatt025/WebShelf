@@ -22,7 +22,10 @@ WebShelf is a simple bookmark manager web app where you can add and save your fa
 2. Open the folder and double-click on `index.html`.
 3. Enter a website URL and click "Add Bookmark".
 4. Bookmarks will be listed below.
-5. Click "Clear Bookmarks" to remove all saved bookmarks.
+
+THANKU
+
+6. Click "Clear Bookmarks" to remove all saved bookmarks.
 
 
 
