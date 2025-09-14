@@ -9,12 +9,6 @@ WebShelf is a simple bookmark manager web app where you can add and save your fa
 - Clear all bookmarks/
 - Saves bookmarks using localStorage
 
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- Browser localStorage
 
 ## How to Use
 
